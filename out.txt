@@ -1,0 +1,779 @@
+     0   1   2   3   4   5   6   7   8
+0  |   |   |   |   |   |   |   |   |   | 
+1  |   |   |   |   | - |   |   |   |   | 
+2  |   |   | - | - |   | - |   |   |   | 
+3  |   |   | - | - |   | - | - | - |   | 
+4  |   |   | - | - |   | 1 | - |   |   | 
+5  |   |   | - | - |   | - | - | - |   | 
+6  |   |   |   | 2 | - | - |   |   |   | 
+7  |   |   |   |   |   |   | - |   |   | 
+8  |   |   |   |   |   |   |   |   |   | 
+
+[(2, 6), (2, 4), (6, 6)]
+1 [(6, 6), (2, 6), (2, 4)]
+legal moves 2: [(4, 4), (8, 4), (7, 1), (7, 5), (5, 1), (8, 2)]
+Legal Moves: min 3 [(4, 4), (8, 4), (7, 1), (7, 5), (5, 1), (8, 2)]
+legal moves 2: [(7, 8), (7, 4), (5, 8), (8, 5), (8, 7), (4, 7), (5, 4)]
+Legal Moves: depth max  2 [(7, 8), (7, 4), (5, 8), (8, 5), (8, 7), (4, 7), (5, 4)]
+legal moves 2: []
+move, score (7, 8) 0
+legal moves 2: []
+move, score (7, 4) 0
+legal moves 2: []
+move, score (5, 8) 0
+legal moves 2: []
+move, score (8, 5) 0
+legal moves 2: []
+move, score (8, 7) 0
+legal moves 2: []
+move, score (4, 7) 0
+legal moves 2: []
+move, score (5, 4) 0
+final score, alpha, beta =  0 0 inf
+move, score (4, 4) 0
+Legal Moves: min 3 [(4, 4), (8, 4), (7, 1), (7, 5), (5, 1), (8, 2)]
+legal moves 2: [(7, 4), (8, 5), (8, 7), (5, 4), (4, 7), (5, 8), (7, 8)]
+Legal Moves: depth max  2 [(7, 4), (8, 5), (8, 7), (5, 4), (4, 7), (5, 8), (7, 8)]
+legal moves 2: [(7, 2)]
+Legal Moves: min 1 [(7, 2)]
+move, score (7, 2) 3.0
+final score, alpha, beta =  3.0 -inf 0
+move, score (7, 4) 3.0
+(BETA CUTOFF) Pruning because B<A 0 3.0
+final score, alpha, beta =  3.0 3.0 0
+move, score (8, 4) 3.0
+Legal Moves: min 3 [(4, 4), (8, 4), (7, 1), (7, 5), (5, 1), (8, 2)]
+legal moves 2: [(8, 7), (5, 8), (7, 4), (7, 8), (8, 5), (4, 7), (5, 4)]
+Legal Moves: depth max  2 [(8, 7), (5, 8), (7, 4), (7, 8), (8, 5), (4, 7), (5, 4)]
+legal moves 2: [(5, 0), (8, 3)]
+Legal Moves: min 1 [(5, 0), (8, 3)]
+move, score (5, 0) 2.0
+Legal Moves: min 1 [(5, 0), (8, 3)]
+move, score (8, 3) 2.0
+final score, alpha, beta =  2.0 -inf 0
+move, score (8, 7) 2.0
+(BETA CUTOFF) Pruning because B<A 0 2.0
+final score, alpha, beta =  2.0 2.0 0
+move, score (7, 1) 2.0
+Legal Moves: min 3 [(4, 4), (8, 4), (7, 1), (7, 5), (5, 1), (8, 2)]
+legal moves 2: [(7, 8), (8, 7), (7, 4), (5, 8), (8, 5), (4, 7), (5, 4)]
+Legal Moves: depth max  2 [(7, 8), (8, 7), (7, 4), (5, 8), (8, 5), (4, 7), (5, 4)]
+legal moves 2: [(6, 7), (8, 7), (8, 3), (5, 4)]
+Legal Moves: min 1 [(6, 7), (8, 7), (8, 3), (5, 4)]
+move, score (6, 7) 1.0
+Legal Moves: min 1 [(6, 7), (8, 7), (8, 3), (5, 4)]
+move, score (8, 7) 1.0
+Legal Moves: min 1 [(6, 7), (8, 7), (8, 3), (5, 4)]
+move, score (8, 3) 1.0
+Legal Moves: min 1 [(6, 7), (8, 7), (8, 3), (5, 4)]
+move, score (5, 4) 1.0
+final score, alpha, beta =  1.0 -inf 0
+move, score (7, 8) 1.0
+(BETA CUTOFF) Pruning because B<A 0 1.0
+final score, alpha, beta =  1.0 1.0 0
+move, score (7, 5) 1.0
+Legal Moves: min 3 [(4, 4), (8, 4), (7, 1), (7, 5), (5, 1), (8, 2)]
+legal moves 2: [(8, 5), (5, 4), (5, 8), (7, 4), (8, 7), (4, 7), (7, 8)]
+Legal Moves: depth max  2 [(8, 5), (5, 4), (5, 8), (7, 4), (8, 7), (4, 7), (7, 8)]
+legal moves 2: [(7, 0), (7, 2), (3, 0)]
+Legal Moves: min 1 [(7, 0), (7, 2), (3, 0)]
+move, score (7, 0) 2.0
+Legal Moves: min 1 [(7, 0), (7, 2), (3, 0)]
+move, score (7, 2) 2.0
+Legal Moves: min 1 [(7, 0), (7, 2), (3, 0)]
+move, score (3, 0) 2.0
+final score, alpha, beta =  2.0 -inf 0
+move, score (8, 5) 2.0
+(BETA CUTOFF) Pruning because B<A 0 2.0
+final score, alpha, beta =  2.0 2.0 0
+move, score (5, 1) 2.0
+Legal Moves: min 3 [(4, 4), (8, 4), (7, 1), (7, 5), (5, 1), (8, 2)]
+legal moves 2: [(4, 7), (5, 8), (5, 4), (7, 8), (8, 7), (8, 5), (7, 4)]
+Legal Moves: depth max  2 [(4, 7), (5, 8), (5, 4), (7, 8), (8, 7), (8, 5), (7, 4)]
+legal moves 2: [(6, 1), (7, 0), (7, 4)]
+Legal Moves: min 1 [(6, 1), (7, 0), (7, 4)]
+move, score (6, 1) 3.0
+Legal Moves: min 1 [(6, 1), (7, 0), (7, 4)]
+move, score (7, 0) 3.0
+Legal Moves: min 1 [(6, 1), (7, 0), (7, 4)]
+move, score (7, 4) 3.0
+final score, alpha, beta =  3.0 -inf 0
+move, score (4, 7) 3.0
+(BETA CUTOFF) Pruning because B<A 0 3.0
+final score, alpha, beta =  3.0 3.0 0
+move, score (8, 2) 3.0
+final score, alpha, beta =  0 -inf 0
+(6, 6)  has Score  0
+legal moves 2: [(8, 4), (5, 1), (7, 5), (7, 1), (8, 2), (4, 4)]
+Legal Moves: min 3 [(8, 4), (5, 1), (7, 5), (7, 1), (8, 2), (4, 4)]
+legal moves 2: [(0, 5), (3, 8), (3, 4), (4, 7), (0, 7), (1, 8)]
+Legal Moves: depth max  2 [(0, 5), (3, 8), (3, 4), (4, 7), (0, 7), (1, 8)]
+legal moves 2: [(7, 2)]
+Legal Moves: min 1 [(7, 2)]
+move, score (7, 2) 3.0
+final score, alpha, beta =  3.0 0 3.0
+move, score (0, 5) 3.0
+legal moves 2: [(7, 2)]
+Legal Moves: min 1 [(7, 2)]
+move, score (7, 2) 1.0
+(ALPHA CUTOFF) Pruning because B<A 1.0 3.0
+final score, alpha, beta =  1.0 3.0 1.0
+move, score (3, 8) 1.0
+legal moves 2: [(7, 2)]
+Legal Moves: min 1 [(7, 2)]
+move, score (7, 2) 2.0
+(ALPHA CUTOFF) Pruning because B<A 2.0 3.0
+final score, alpha, beta =  2.0 3.0 2.0
+move, score (3, 4) 2.0
+legal moves 2: [(7, 2)]
+Legal Moves: min 1 [(7, 2)]
+move, score (7, 2) 3.0
+(ALPHA CUTOFF) Pruning because B<A 3.0 3.0
+final score, alpha, beta =  3.0 3.0 3.0
+move, score (4, 7) 3.0
+legal moves 2: [(7, 2)]
+Legal Moves: min 1 [(7, 2)]
+move, score (7, 2) 2.0
+(ALPHA CUTOFF) Pruning because B<A 2.0 3.0
+final score, alpha, beta =  2.0 3.0 2.0
+move, score (0, 7) 2.0
+legal moves 2: [(7, 2)]
+Legal Moves: min 1 [(7, 2)]
+move, score (7, 2) 1.0
+(ALPHA CUTOFF) Pruning because B<A 1.0 3.0
+final score, alpha, beta =  1.0 3.0 1.0
+move, score (1, 8) 1.0
+final score, alpha, beta =  3.0 3.0 inf
+move, score (8, 4) 3.0
+Legal Moves: min 3 [(8, 4), (5, 1), (7, 5), (7, 1), (8, 2), (4, 4)]
+legal moves 2: [(0, 7), (1, 8), (4, 7), (3, 8), (3, 4), (0, 5)]
+Legal Moves: depth max  2 [(0, 7), (1, 8), (4, 7), (3, 8), (3, 4), (0, 5)]
+legal moves 2: [(3, 0), (7, 0), (7, 2)]
+Legal Moves: min 1 [(3, 0), (7, 0), (7, 2)]
+move, score (3, 0) 2.0
+Legal Moves: min 1 [(3, 0), (7, 0), (7, 2)]
+move, score (7, 0) 2.0
+Legal Moves: min 1 [(3, 0), (7, 0), (7, 2)]
+move, score (7, 2) 2.0
+final score, alpha, beta =  2.0 0 2.0
+move, score (0, 7) 2.0
+legal moves 2: [(7, 0), (3, 0), (7, 2)]
+Legal Moves: min 1 [(7, 0), (3, 0), (7, 2)]
+move, score (7, 0) 1.0
+(ALPHA CUTOFF) Pruning because B<A 1.0 2.0
+final score, alpha, beta =  1.0 2.0 1.0
+move, score (1, 8) 1.0
+legal moves 2: [(7, 2), (7, 0), (3, 0)]
+Legal Moves: min 1 [(7, 2), (7, 0), (3, 0)]
+move, score (7, 2) 3.0
+Legal Moves: min 1 [(7, 2), (7, 0), (3, 0)]
+move, score (7, 0) 3.0
+Legal Moves: min 1 [(7, 2), (7, 0), (3, 0)]
+move, score (3, 0) 3.0
+final score, alpha, beta =  3.0 2.0 3.0
+move, score (4, 7) 3.0
+(BETA CUTOFF) Pruning because B<A 3.0 3.0
+final score, alpha, beta =  3.0 3.0 3.0
+move, score (5, 1) 3.0
+Legal Moves: min 3 [(8, 4), (5, 1), (7, 5), (7, 1), (8, 2), (4, 4)]
+legal moves 2: [(0, 7), (1, 8), (3, 4), (0, 5), (3, 8), (4, 7)]
+Legal Moves: depth max  2 [(0, 7), (1, 8), (3, 4), (0, 5), (3, 8), (4, 7)]
+legal moves 2: [(5, 4), (8, 3), (8, 7), (6, 7)]
+Legal Moves: min 1 [(5, 4), (8, 3), (8, 7), (6, 7)]
+move, score (5, 4) 2.0
+Legal Moves: min 1 [(5, 4), (8, 3), (8, 7), (6, 7)]
+move, score (8, 3) 2.0
+Legal Moves: min 1 [(5, 4), (8, 3), (8, 7), (6, 7)]
+move, score (8, 7) 2.0
+Legal Moves: min 1 [(5, 4), (8, 3), (8, 7), (6, 7)]
+move, score (6, 7) 2.0
+final score, alpha, beta =  2.0 0 2.0
+move, score (0, 7) 2.0
+legal moves 2: [(8, 7), (5, 4), (8, 3), (6, 7)]
+Legal Moves: min 1 [(8, 7), (5, 4), (8, 3), (6, 7)]
+move, score (8, 7) 1.0
+(ALPHA CUTOFF) Pruning because B<A 1.0 2.0
+final score, alpha, beta =  1.0 2.0 1.0
+move, score (1, 8) 1.0
+legal moves 2: [(6, 7), (8, 3), (8, 7), (5, 4)]
+Legal Moves: min 1 [(6, 7), (8, 3), (8, 7), (5, 4)]
+move, score (6, 7) 2.0
+(ALPHA CUTOFF) Pruning because B<A 2.0 2.0
+final score, alpha, beta =  2.0 2.0 2.0
+move, score (3, 4) 2.0
+legal moves 2: [(6, 7), (8, 7), (5, 4), (8, 3)]
+Legal Moves: min 1 [(6, 7), (8, 7), (5, 4), (8, 3)]
+move, score (6, 7) 3.0
+Legal Moves: min 1 [(6, 7), (8, 7), (5, 4), (8, 3)]
+move, score (8, 7) 3.0
+Legal Moves: min 1 [(6, 7), (8, 7), (5, 4), (8, 3)]
+move, score (5, 4) 3.0
+Legal Moves: min 1 [(6, 7), (8, 7), (5, 4), (8, 3)]
+move, score (8, 3) 3.0
+final score, alpha, beta =  3.0 2.0 3.0
+move, score (0, 5) 3.0
+(BETA CUTOFF) Pruning because B<A 3.0 3.0
+final score, alpha, beta =  3.0 3.0 3.0
+move, score (7, 5) 3.0
+Legal Moves: min 3 [(8, 4), (5, 1), (7, 5), (7, 1), (8, 2), (4, 4)]
+legal moves 2: [(0, 5), (3, 8), (3, 4), (4, 7), (1, 8), (0, 7)]
+Legal Moves: depth max  2 [(0, 5), (3, 8), (3, 4), (4, 7), (1, 8), (0, 7)]
+legal moves 2: [(8, 3), (5, 0)]
+Legal Moves: min 1 [(8, 3), (5, 0)]
+move, score (8, 3) 3.0
+Legal Moves: min 1 [(8, 3), (5, 0)]
+move, score (5, 0) 3.0
+final score, alpha, beta =  3.0 0 3.0
+move, score (0, 5) 3.0
+(BETA CUTOFF) Pruning because B<A 3.0 3.0
+final score, alpha, beta =  3.0 3.0 3.0
+move, score (7, 1) 3.0
+Legal Moves: min 3 [(8, 4), (5, 1), (7, 5), (7, 1), (8, 2), (4, 4)]
+legal moves 2: [(1, 8), (3, 4), (0, 5), (3, 8), (4, 7), (0, 7)]
+Legal Moves: depth max  2 [(1, 8), (3, 4), (0, 5), (3, 8), (4, 7), (0, 7)]
+legal moves 2: [(6, 1), (7, 4), (7, 0)]
+Legal Moves: min 1 [(6, 1), (7, 4), (7, 0)]
+move, score (6, 1) 1.0
+Legal Moves: min 1 [(6, 1), (7, 4), (7, 0)]
+move, score (7, 4) 1.0
+Legal Moves: min 1 [(6, 1), (7, 4), (7, 0)]
+move, score (7, 0) 1.0
+final score, alpha, beta =  1.0 0 1.0
+move, score (1, 8) 1.0
+legal moves 2: [(6, 1), (7, 4), (7, 0)]
+Legal Moves: min 1 [(6, 1), (7, 4), (7, 0)]
+move, score (6, 1) 2.0
+Legal Moves: min 1 [(6, 1), (7, 4), (7, 0)]
+move, score (7, 4) 2.0
+Legal Moves: min 1 [(6, 1), (7, 4), (7, 0)]
+move, score (7, 0) 2.0
+final score, alpha, beta =  2.0 1.0 2.0
+move, score (3, 4) 2.0
+legal moves 2: [(7, 0), (6, 1), (7, 4)]
+Legal Moves: min 1 [(7, 0), (6, 1), (7, 4)]
+move, score (7, 0) 3.0
+Legal Moves: min 1 [(7, 0), (6, 1), (7, 4)]
+move, score (6, 1) 3.0
+Legal Moves: min 1 [(7, 0), (6, 1), (7, 4)]
+move, score (7, 4) 3.0
+final score, alpha, beta =  3.0 2.0 3.0
+move, score (0, 5) 3.0
+(BETA CUTOFF) Pruning because B<A 3.0 3.0
+final score, alpha, beta =  3.0 3.0 3.0
+move, score (8, 2) 3.0
+Legal Moves: min 3 [(8, 4), (5, 1), (7, 5), (7, 1), (8, 2), (4, 4)]
+legal moves 2: [(4, 7), (3, 4), (0, 5), (3, 8), (0, 7), (1, 8)]
+Legal Moves: depth max  2 [(4, 7), (3, 4), (0, 5), (3, 8), (0, 7), (1, 8)]
+legal moves 2: []
+move, score (4, 7) 0
+legal moves 2: []
+move, score (3, 4) 0
+legal moves 2: []
+move, score (0, 5) 0
+legal moves 2: []
+move, score (3, 8) 0
+legal moves 2: []
+move, score (0, 7) 0
+legal moves 2: []
+move, score (1, 8) 0
+final score, alpha, beta =  0 0 3.0
+move, score (4, 4) 0
+(ALPHA CUTOFF) Pruning because B<A 0 0
+final score, alpha, beta =  0 0 0
+(2, 6)  has Score  0
+legal moves 2: [(4, 4), (7, 5), (8, 2), (8, 4), (5, 1), (7, 1)]
+Legal Moves: min 3 [(4, 4), (7, 5), (8, 2), (8, 4), (5, 1), (7, 1)]
+legal moves 2: [(1, 6), (1, 2), (0, 5), (0, 3)]
+Legal Moves: depth max  2 [(1, 6), (1, 2), (0, 5), (0, 3)]
+legal moves 2: []
+move, score (1, 6) 0
+legal moves 2: []
+move, score (1, 2) 0
+legal moves 2: []
+move, score (0, 5) 0
+legal moves 2: []
+move, score (0, 3) 0
+final score, alpha, beta =  0 0 inf
+move, score (4, 4) 0
+(ALPHA CUTOFF) Pruning because B<A 0 0
+final score, alpha, beta =  0 0 0
+(2, 4)  has Score  0
+chosen, alpha, beta =  (6, 6) 0 inf
+1 [(7, 8), (8, 7), (5, 8), (7, 4), (5, 4), (8, 5), (4, 7)]
+legal moves 2: [(8, 7), (6, 7), (8, 3), (5, 4)]
+Legal Moves: min 3 [(8, 7), (6, 7), (8, 3), (5, 4)]
+legal moves 2: [(8, 6)]
+Legal Moves: depth max  2 [(8, 6)]
+legal moves 2: [(6, 8)]
+Legal Moves: min 1 [(6, 8)]
+move, score (6, 8) 2.0
+final score, alpha, beta =  2.0 -inf 2.0
+move, score (8, 6) 2.0
+final score, alpha, beta =  2.0 2.0 inf
+move, score (8, 7) 2.0
+Legal Moves: min 3 [(8, 7), (6, 7), (8, 3), (5, 4)]
+legal moves 2: [(8, 6)]
+Legal Moves: depth max  2 [(8, 6)]
+legal moves 2: [(8, 8), (4, 8)]
+Legal Moves: min 1 [(8, 8), (4, 8)]
+move, score (8, 8) 1.0
+Legal Moves: min 1 [(8, 8), (4, 8)]
+move, score (4, 8) 1.0
+final score, alpha, beta =  1.0 -inf 1.0
+move, score (8, 6) 1.0
+final score, alpha, beta =  1.0 1.0 2.0
+move, score (6, 7) 1.0
+Legal Moves: min 3 [(8, 7), (6, 7), (8, 3), (5, 4)]
+legal moves 2: [(8, 6)]
+Legal Moves: depth max  2 [(8, 6)]
+legal moves 2: [(7, 1), (6, 2)]
+Legal Moves: min 1 [(7, 1), (6, 2)]
+move, score (7, 1) 2.0
+Legal Moves: min 1 [(7, 1), (6, 2)]
+move, score (6, 2) 2.0
+final score, alpha, beta =  2.0 -inf 1.0
+move, score (8, 6) 2.0
+(BETA CUTOFF) Pruning because B<A 1.0 2.0
+final score, alpha, beta =  2.0 2.0 1.0
+move, score (8, 3) 2.0
+Legal Moves: min 3 [(8, 7), (6, 7), (8, 3), (5, 4)]
+legal moves 2: [(8, 6)]
+Legal Moves: depth max  2 [(8, 6)]
+legal moves 2: [(7, 3), (6, 2)]
+Legal Moves: min 1 [(7, 3), (6, 2)]
+move, score (7, 3) 2.0
+Legal Moves: min 1 [(7, 3), (6, 2)]
+move, score (6, 2) 2.0
+final score, alpha, beta =  2.0 -inf 1.0
+move, score (8, 6) 2.0
+(BETA CUTOFF) Pruning because B<A 1.0 2.0
+final score, alpha, beta =  2.0 2.0 1.0
+move, score (5, 4) 2.0
+final score, alpha, beta =  1.0 -inf 1.0
+(7, 8)  has Score  1.0
+legal moves 2: [(6, 7), (5, 4), (8, 3)]
+Legal Moves: min 3 [(6, 7), (5, 4), (8, 3)]
+legal moves 2: [(6, 8)]
+Legal Moves: depth max  2 [(6, 8)]
+legal moves 2: [(8, 6), (4, 8), (8, 8)]
+Legal Moves: min 1 [(8, 6), (4, 8), (8, 8)]
+move, score (8, 6) 1.0
+(ALPHA CUTOFF) Pruning because B<A 1.0 1.0
+final score, alpha, beta =  1.0 1.0 1.0
+move, score (6, 8) 1.0
+final score, alpha, beta =  1.0 1.0 inf
+move, score (6, 7) 1.0
+(ALPHA CUTOFF) Pruning because B<A 1.0 1.0
+final score, alpha, beta =  1.0 1.0 1.0
+(8, 7)  has Score  1.0
+legal moves 2: [(8, 3), (6, 7), (8, 7), (5, 4)]
+Legal Moves: min 3 [(8, 3), (6, 7), (8, 7), (5, 4)]
+legal moves 2: [(7, 7)]
+Legal Moves: depth max  2 [(7, 7)]
+legal moves 2: [(7, 1), (6, 2)]
+Legal Moves: min 1 [(7, 1), (6, 2)]
+move, score (7, 1) 1.0
+(ALPHA CUTOFF) Pruning because B<A 1.0 1.0
+final score, alpha, beta =  1.0 1.0 1.0
+move, score (7, 7) 1.0
+final score, alpha, beta =  1.0 1.0 inf
+move, score (8, 3) 1.0
+(ALPHA CUTOFF) Pruning because B<A 1.0 1.0
+final score, alpha, beta =  1.0 1.0 1.0
+(5, 8)  has Score  1.0
+legal moves 2: [(6, 7), (8, 3), (8, 7), (5, 4)]
+Legal Moves: min 3 [(6, 7), (8, 3), (8, 7), (5, 4)]
+legal moves 2: [(8, 6), (6, 2), (8, 2)]
+Legal Moves: depth max  2 [(8, 6), (6, 2), (8, 2)]
+legal moves 2: [(8, 8), (4, 8)]
+Legal Moves: min 1 [(8, 8), (4, 8)]
+move, score (8, 8) 1.0
+(ALPHA CUTOFF) Pruning because B<A 1.0 1.0
+final score, alpha, beta =  1.0 1.0 1.0
+move, score (8, 6) 1.0
+legal moves 2: [(4, 8), (8, 6), (8, 8)]
+Legal Moves: min 1 [(4, 8), (8, 6), (8, 8)]
+move, score (4, 8) 6.0
+Legal Moves: min 1 [(4, 8), (8, 6), (8, 8)]
+move, score (8, 6) 6.0
+Legal Moves: min 1 [(4, 8), (8, 6), (8, 8)]
+move, score (8, 8) 6.0
+final score, alpha, beta =  6.0 1.0 6.0
+move, score (6, 2) 6.0
+legal moves 2: [(8, 8), (8, 6), (4, 8)]
+Legal Moves: min 1 [(8, 8), (8, 6), (4, 8)]
+move, score (8, 8) 2.0
+(ALPHA CUTOFF) Pruning because B<A 2.0 6.0
+final score, alpha, beta =  2.0 6.0 2.0
+move, score (8, 2) 2.0
+final score, alpha, beta =  6.0 6.0 inf
+move, score (6, 7) 6.0
+Legal Moves: min 3 [(6, 7), (8, 3), (8, 7), (5, 4)]
+legal moves 2: [(6, 2), (8, 6), (8, 2)]
+Legal Moves: depth max  2 [(6, 2), (8, 6), (8, 2)]
+legal moves 2: [(7, 1)]
+Legal Moves: min 1 [(7, 1)]
+move, score (7, 1) 5.0
+final score, alpha, beta =  5.0 1.0 5.0
+move, score (6, 2) 5.0
+legal moves 2: [(7, 1), (6, 2)]
+Legal Moves: min 1 [(7, 1), (6, 2)]
+move, score (7, 1) 2.0
+(ALPHA CUTOFF) Pruning because B<A 2.0 5.0
+final score, alpha, beta =  2.0 5.0 2.0
+move, score (8, 6) 2.0
+legal moves 2: [(7, 1), (6, 2)]
+Legal Moves: min 1 [(7, 1), (6, 2)]
+move, score (7, 1) 2.0
+(ALPHA CUTOFF) Pruning because B<A 2.0 5.0
+final score, alpha, beta =  2.0 5.0 2.0
+move, score (8, 2) 2.0
+final score, alpha, beta =  5.0 5.0 6.0
+move, score (8, 3) 5.0
+Legal Moves: min 3 [(6, 7), (8, 3), (8, 7), (5, 4)]
+legal moves 2: [(8, 6), (6, 2), (8, 2)]
+Legal Moves: depth max  2 [(8, 6), (6, 2), (8, 2)]
+legal moves 2: [(6, 8)]
+Legal Moves: min 1 [(6, 8)]
+move, score (6, 8) 2.0
+final score, alpha, beta =  2.0 1.0 2.0
+move, score (8, 6) 2.0
+legal moves 2: [(6, 8)]
+Legal Moves: min 1 [(6, 8)]
+move, score (6, 8) 6.0
+final score, alpha, beta =  6.0 2.0 5.0
+move, score (6, 2) 6.0
+(BETA CUTOFF) Pruning because B<A 5.0 6.0
+final score, alpha, beta =  6.0 6.0 5.0
+move, score (8, 7) 6.0
+Legal Moves: min 3 [(6, 7), (8, 3), (8, 7), (5, 4)]
+legal moves 2: [(8, 6), (6, 2), (8, 2)]
+Legal Moves: depth max  2 [(8, 6), (6, 2), (8, 2)]
+legal moves 2: [(7, 3), (6, 2)]
+Legal Moves: min 1 [(7, 3), (6, 2)]
+move, score (7, 3) 2.0
+Legal Moves: min 1 [(7, 3), (6, 2)]
+move, score (6, 2) 2.0
+final score, alpha, beta =  2.0 1.0 2.0
+move, score (8, 6) 2.0
+legal moves 2: [(7, 3)]
+Legal Moves: min 1 [(7, 3)]
+move, score (7, 3) 5.0
+final score, alpha, beta =  5.0 2.0 5.0
+move, score (6, 2) 5.0
+(BETA CUTOFF) Pruning because B<A 5.0 5.0
+final score, alpha, beta =  5.0 5.0 5.0
+move, score (5, 4) 5.0
+final score, alpha, beta =  5.0 1.0 5.0
+(7, 4)  has Score  5.0
+legal moves 2: [(6, 7), (8, 7), (8, 3)]
+Legal Moves: min 3 [(6, 7), (8, 7), (8, 3)]
+legal moves 2: [(6, 2), (7, 3)]
+Legal Moves: depth max  2 [(6, 2), (7, 3)]
+legal moves 2: [(8, 6), (8, 8), (4, 8)]
+Legal Moves: min 1 [(8, 6), (8, 8), (4, 8)]
+move, score (8, 6) 6.0
+Legal Moves: min 1 [(8, 6), (8, 8), (4, 8)]
+move, score (8, 8) 6.0
+Legal Moves: min 1 [(8, 6), (8, 8), (4, 8)]
+move, score (4, 8) 6.0
+final score, alpha, beta =  6.0 5.0 6.0
+move, score (6, 2) 6.0
+legal moves 2: [(4, 8), (8, 6), (8, 8)]
+Legal Moves: min 1 [(4, 8), (8, 6), (8, 8)]
+move, score (4, 8) 3.0
+(ALPHA CUTOFF) Pruning because B<A 3.0 6.0
+final score, alpha, beta =  3.0 6.0 3.0
+move, score (7, 3) 3.0
+final score, alpha, beta =  6.0 6.0 inf
+move, score (6, 7) 6.0
+Legal Moves: min 3 [(6, 7), (8, 7), (8, 3)]
+legal moves 2: [(6, 2), (7, 3)]
+Legal Moves: depth max  2 [(6, 2), (7, 3)]
+legal moves 2: [(6, 8)]
+Legal Moves: min 1 [(6, 8)]
+move, score (6, 8) 6.0
+final score, alpha, beta =  6.0 5.0 6.0
+move, score (6, 2) 6.0
+(BETA CUTOFF) Pruning because B<A 6.0 6.0
+final score, alpha, beta =  6.0 6.0 6.0
+move, score (8, 7) 6.0
+Legal Moves: min 3 [(6, 7), (8, 7), (8, 3)]
+legal moves 2: [(7, 3), (6, 2)]
+Legal Moves: depth max  2 [(7, 3), (6, 2)]
+legal moves 2: [(6, 2), (7, 1)]
+Legal Moves: min 1 [(6, 2), (7, 1)]
+move, score (6, 2) 3.0
+(ALPHA CUTOFF) Pruning because B<A 3.0 5.0
+final score, alpha, beta =  3.0 5.0 3.0
+move, score (7, 3) 3.0
+legal moves 2: [(7, 1)]
+Legal Moves: min 1 [(7, 1)]
+move, score (7, 1) 5.0
+(ALPHA CUTOFF) Pruning because B<A 5.0 5.0
+final score, alpha, beta =  5.0 5.0 5.0
+move, score (6, 2) 5.0
+final score, alpha, beta =  5.0 5.0 6.0
+move, score (8, 3) 5.0
+(ALPHA CUTOFF) Pruning because B<A 5.0 5.0
+final score, alpha, beta =  5.0 5.0 5.0
+(5, 4)  has Score  5.0
+legal moves 2: [(8, 7), (6, 7), (8, 3), (5, 4)]
+Legal Moves: min 3 [(8, 7), (6, 7), (8, 3), (5, 4)]
+legal moves 2: [(7, 3), (7, 7)]
+Legal Moves: depth max  2 [(7, 3), (7, 7)]
+legal moves 2: [(6, 8)]
+Legal Moves: min 1 [(6, 8)]
+move, score (6, 8) 3.0
+(ALPHA CUTOFF) Pruning because B<A 3.0 5.0
+final score, alpha, beta =  3.0 5.0 3.0
+move, score (7, 3) 3.0
+legal moves 2: [(6, 8)]
+Legal Moves: min 1 [(6, 8)]
+move, score (6, 8) 1.0
+(ALPHA CUTOFF) Pruning because B<A 1.0 5.0
+final score, alpha, beta =  1.0 5.0 1.0
+move, score (7, 7) 1.0
+final score, alpha, beta =  3.0 5.0 inf
+move, score (8, 7) 3.0
+(ALPHA CUTOFF) Pruning because B<A 3.0 5.0
+final score, alpha, beta =  3.0 5.0 3.0
+(8, 5)  has Score  3.0
+legal moves 2: [(8, 7), (5, 4), (6, 7), (8, 3)]
+Legal Moves: min 3 [(8, 7), (5, 4), (6, 7), (8, 3)]
+legal moves 2: [(2, 8), (6, 8), (2, 6)]
+Legal Moves: depth max  2 [(2, 8), (6, 8), (2, 6)]
+legal moves 2: [(6, 8)]
+Legal Moves: min 1 [(6, 8)]
+move, score (6, 8) 2.0
+(ALPHA CUTOFF) Pruning because B<A 2.0 5.0
+final score, alpha, beta =  2.0 5.0 2.0
+move, score (2, 8) 2.0
+legal moves 2: []
+move, score (6, 8) 0
+legal moves 2: [(6, 8)]
+Legal Moves: min 1 [(6, 8)]
+move, score (6, 8) 5.0
+(ALPHA CUTOFF) Pruning because B<A 5.0 5.0
+final score, alpha, beta =  5.0 5.0 5.0
+move, score (2, 6) 5.0
+final score, alpha, beta =  5.0 5.0 inf
+move, score (8, 7) 5.0
+(ALPHA CUTOFF) Pruning because B<A 5.0 5.0
+final score, alpha, beta =  5.0 5.0 5.0
+(4, 7)  has Score  5.0
+chosen, alpha, beta =  (7, 4) 5.0 inf
+1 [(8, 6), (6, 2), (8, 2)]
+legal moves 2: [(4, 8), (8, 8)]
+Legal Moves: min 3 [(4, 8), (8, 8)]
+legal moves 2: [(7, 8)]
+Legal Moves: depth max  2 [(7, 8)]
+legal moves 2: [(2, 7)]
+Legal Moves: min 1 [(2, 7)]
+move, score (2, 7) -inf
+(ALPHA CUTOFF) Pruning because B<A -inf -inf
+final score, alpha, beta =  -inf -inf -inf
+move, score (7, 8) -inf
+final score, alpha, beta =  -inf -inf inf
+move, score (4, 8) -inf
+(ALPHA CUTOFF) Pruning because B<A -inf -inf
+final score, alpha, beta =  -inf -inf -inf
+(8, 6)  has Score  -inf
+legal moves 2: [(8, 6), (4, 8), (8, 8)]
+Legal Moves: min 3 [(8, 6), (4, 8), (8, 8)]
+legal moves 2: [(5, 0), (5, 4), (7, 0), (8, 1), (8, 3), (4, 1)]
+Legal Moves: depth max  2 [(5, 0), (5, 4), (7, 0), (8, 1), (8, 3), (4, 1)]
+legal moves 2: [(7, 8)]
+Legal Moves: min 1 [(7, 8)]
+move, score (7, 8) 2.0
+final score, alpha, beta =  2.0 -inf 2.0
+move, score (5, 0) 2.0
+legal moves 2: [(7, 8)]
+Legal Moves: min 1 [(7, 8)]
+move, score (7, 8) 1.0
+(ALPHA CUTOFF) Pruning because B<A 1.0 2.0
+final score, alpha, beta =  1.0 2.0 1.0
+move, score (5, 4) 1.0
+legal moves 2: [(7, 8)]
+Legal Moves: min 1 [(7, 8)]
+move, score (7, 8) 2.0
+(ALPHA CUTOFF) Pruning because B<A 2.0 2.0
+final score, alpha, beta =  2.0 2.0 2.0
+move, score (7, 0) 2.0
+legal moves 2: [(7, 8)]
+Legal Moves: min 1 [(7, 8)]
+move, score (7, 8) 2.0
+(ALPHA CUTOFF) Pruning because B<A 2.0 2.0
+final score, alpha, beta =  2.0 2.0 2.0
+move, score (8, 1) 2.0
+legal moves 2: [(7, 8)]
+Legal Moves: min 1 [(7, 8)]
+move, score (7, 8) 1.0
+(ALPHA CUTOFF) Pruning because B<A 1.0 2.0
+final score, alpha, beta =  1.0 2.0 1.0
+move, score (8, 3) 1.0
+legal moves 2: [(7, 8)]
+Legal Moves: min 1 [(7, 8)]
+move, score (7, 8) 2.0
+(ALPHA CUTOFF) Pruning because B<A 2.0 2.0
+final score, alpha, beta =  2.0 2.0 2.0
+move, score (4, 1) 2.0
+final score, alpha, beta =  2.0 2.0 inf
+move, score (8, 6) 2.0
+Legal Moves: min 3 [(8, 6), (4, 8), (8, 8)]
+legal moves 2: [(5, 0), (4, 1), (7, 0), (8, 1), (5, 4), (8, 3)]
+Legal Moves: depth max  2 [(5, 0), (4, 1), (7, 0), (8, 1), (5, 4), (8, 3)]
+legal moves 2: [(2, 7)]
+Legal Moves: min 1 [(2, 7)]
+move, score (2, 7) 2.0
+final score, alpha, beta =  2.0 -inf 2.0
+move, score (5, 0) 2.0
+(BETA CUTOFF) Pruning because B<A 2.0 2.0
+final score, alpha, beta =  2.0 2.0 2.0
+move, score (4, 8) 2.0
+Legal Moves: min 3 [(8, 6), (4, 8), (8, 8)]
+legal moves 2: [(8, 1), (5, 0), (5, 4), (7, 0), (8, 3), (4, 1)]
+Legal Moves: depth max  2 [(8, 1), (5, 0), (5, 4), (7, 0), (8, 3), (4, 1)]
+legal moves 2: []
+move, score (8, 1) 0
+legal moves 2: []
+move, score (5, 0) 0
+legal moves 2: []
+move, score (5, 4) 0
+legal moves 2: []
+move, score (7, 0) 0
+legal moves 2: []
+move, score (8, 3) 0
+legal moves 2: []
+move, score (4, 1) 0
+final score, alpha, beta =  0 0 2.0
+move, score (8, 8) 0
+final score, alpha, beta =  0 -inf 0
+(6, 2)  has Score  0
+legal moves 2: [(8, 6), (8, 8), (4, 8)]
+Legal Moves: min 3 [(8, 6), (8, 8), (4, 8)]
+legal moves 2: [(6, 1), (7, 0)]
+Legal Moves: depth max  2 [(6, 1), (7, 0)]
+legal moves 2: [(7, 8)]
+Legal Moves: min 1 [(7, 8)]
+move, score (7, 8) 3.0
+final score, alpha, beta =  3.0 0 3.0
+move, score (6, 1) 3.0
+legal moves 2: [(7, 8)]
+Legal Moves: min 1 [(7, 8)]
+move, score (7, 8) 2.0
+(ALPHA CUTOFF) Pruning because B<A 2.0 3.0
+final score, alpha, beta =  2.0 3.0 2.0
+move, score (7, 0) 2.0
+final score, alpha, beta =  3.0 3.0 inf
+move, score (8, 6) 3.0
+Legal Moves: min 3 [(8, 6), (8, 8), (4, 8)]
+legal moves 2: [(6, 1), (7, 0)]
+Legal Moves: depth max  2 [(6, 1), (7, 0)]
+legal moves 2: []
+move, score (6, 1) 0
+legal moves 2: []
+move, score (7, 0) 0
+final score, alpha, beta =  0 0 3.0
+move, score (8, 8) 0
+(ALPHA CUTOFF) Pruning because B<A 0 0
+final score, alpha, beta =  0 0 0
+(8, 2)  has Score  0
+chosen, alpha, beta =  (6, 2) 0 inf
+1 [(7, 0), (5, 4), (8, 3), (5, 0), (8, 1), (4, 1)]
+legal moves 2: [(7, 8)]
+Legal Moves: min 3 [(7, 8)]
+legal moves 2: [(5, 1), (8, 2)]
+Legal Moves: depth max  2 [(5, 1), (8, 2)]
+legal moves 2: []
+move, score (5, 1) 0
+legal moves 2: []
+move, score (8, 2) 0
+final score, alpha, beta =  0 0 inf
+move, score (7, 8) 0
+final score, alpha, beta =  0 -inf 0
+(7, 0)  has Score  0
+legal moves 2: [(7, 8)]
+Legal Moves: min 3 [(7, 8)]
+legal moves 2: [(7, 3)]
+Legal Moves: depth max  2 [(7, 3)]
+legal moves 2: []
+move, score (7, 3) 0
+final score, alpha, beta =  0 0 inf
+move, score (7, 8) 0
+(ALPHA CUTOFF) Pruning because B<A 0 0
+final score, alpha, beta =  0 0 0
+(5, 4)  has Score  0
+legal moves 2: [(7, 8)]
+Legal Moves: min 3 [(7, 8)]
+legal moves 2: [(7, 1)]
+Legal Moves: depth max  2 [(7, 1)]
+legal moves 2: []
+move, score (7, 1) 0
+final score, alpha, beta =  0 0 inf
+move, score (7, 8) 0
+(ALPHA CUTOFF) Pruning because B<A 0 0
+final score, alpha, beta =  0 0 0
+(8, 3)  has Score  0
+legal moves 2: [(7, 8)]
+Legal Moves: min 3 [(7, 8)]
+legal moves 2: [(7, 1), (3, 1)]
+Legal Moves: depth max  2 [(7, 1), (3, 1)]
+legal moves 2: []
+move, score (7, 1) 0
+legal moves 2: []
+move, score (3, 1) 0
+final score, alpha, beta =  0 0 inf
+move, score (7, 8) 0
+(ALPHA CUTOFF) Pruning because B<A 0 0
+final score, alpha, beta =  0 0 0
+(5, 0)  has Score  0
+legal moves 2: [(7, 8)]
+Legal Moves: min 3 [(7, 8)]
+legal moves 2: [(6, 0), (7, 3)]
+Legal Moves: depth max  2 [(6, 0), (7, 3)]
+legal moves 2: []
+move, score (6, 0) 0
+legal moves 2: []
+move, score (7, 3) 0
+final score, alpha, beta =  0 0 inf
+move, score (7, 8) 0
+(ALPHA CUTOFF) Pruning because B<A 0 0
+final score, alpha, beta =  0 0 0
+(8, 1)  has Score  0
+legal moves 2: [(7, 8)]
+Legal Moves: min 3 [(7, 8)]
+legal moves 2: [(6, 0), (2, 0)]
+Legal Moves: depth max  2 [(6, 0), (2, 0)]
+legal moves 2: []
+move, score (6, 0) 0
+legal moves 2: []
+move, score (2, 0) 0
+final score, alpha, beta =  0 0 inf
+move, score (7, 8) 0
+(ALPHA CUTOFF) Pruning because B<A 0 0
+final score, alpha, beta =  0 0 0
+(4, 1)  has Score  0
+chosen, alpha, beta =  (7, 0) 0 inf
+1 [(8, 2), (5, 1)]
+legal moves 2: []
+(8, 2)  has Score  0
+legal moves 2: []
+(5, 1)  has Score  0
+chosen, alpha, beta =  (8, 2) 0 inf
+
+Winner: <game_agent.AlphaBetaPlayer object at 0x01858A30>
+Outcome: illegal move
+     0   1   2   3   4   5   6   7   8
+0  |   |   |   |   |   |   |   |   |   | 
+1  |   |   |   |   | - |   |   |   |   | 
+2  |   |   | - | - |   | - |   |   |   | 
+3  |   |   | - | - |   | - | - | - |   | 
+4  |   |   | - | - |   | - | - |   |   | 
+5  |   |   | - | - |   | - | - | - |   | 
+6  |   |   | - | - | - | - | - | - |   | 
+7  | - |   |   |   | - | - | - |   | 2 | 
+8  |   |   | 1 |   |   |   | - |   |   | 
+
+Move history:
+[[6, 6], [7, 5], [7, 4], [6, 7], [6, 2], [8, 6], [7, 0], [7, 8], [8, 2]]

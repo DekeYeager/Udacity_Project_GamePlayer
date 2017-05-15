@@ -1,0 +1,92 @@
+#anaconda
+#cd C:\Users\rich\Dropbox\udacity\AI_NanoDegree\proj\Isolation\AIND-Isolation-master
+activate aind
+#python sample_players.py 
+#udacity submit isolation
+#python tournament.py 
+
+
+
+Failed Test: 9. Test iterative deepening in AlphaBetaPlayer.get_move()
+----------------------------------------------------------------------
+AssertionError: False is not true : Your agent did not call the search function
+self.alphabeta() the expected number of times.  Iterative deepening should call
+the search function with sequential values until SearchTimeout is raised. Search
+Timeout was set to be raised after 24 moves, and your agent called the search fu
+nction 0 times.
+
+
+
+Failed Test: 7. Test functionality of AlphaBetaPlayer.alphabeta()
+----------------------------------------------------------------------
+AssertionError: False is not true : Your AlphaBetaAgent.alphabeta function retur
+ned a move that was not one of the optimal moves for the given heurisitc.
+Available choices:
+[(1, 3), (3, 3), (3, 7)]
+Your Selection: (0, 4)
+
+Test Case Details:
+------------------
+Heuristic: open_move_score
+Depth limit: 1
+Initial Board State:
+     0   1   2   3   4   5   6   7   8
+0  |   |   |   |   |   |   |   |   |   |
+1  |   |   |   |   |   |   |   |   |   |
+2  |   |   | - |   |   | 1 | - |   |   |
+3  |   |   |   |   | - | 2 |   |   |   |
+4  |   |   |   | - | - | - | - | - |   |
+5  |   |   | - | - | - |   |   |   |   |
+6  |   |   | - |   | - | - |   |   |   |
+7  |   |   |   |   |   |   |   |   |   |
+8  |   |   |   |   |   |   |   |   |   |
+
+game._board_state:
+[    0,  0,  0,  0,  0,  0,  0,  0,  0, 
+     0,  0,  0,  0,  0,  0,  0,  0,  0, 
+     0,  0,  1,  0,  0,  1,  1,  0,  0,
+     0,  0,  0,  0,  1,  1,  0,  0,  0, 
+     0,  0,  0,  1,  1,  1,  1,  1,  0, 
+     0,  0,  1,  1,  1,  0,  0,  0,  0, 
+     0,  0,  1,  0,  1,  1,  0,  0,  0, 
+     0,  0,  0,  0,  0,  0,  0,  0,  0, 
+     0,  0,  0,  0,  0,  0,  0,  0,  0, 
+     0, 48, 47]
+
+================================================
+AssertionError: Failed to cut off search -- expanded too many nodes. (i.e., your
+ agent did not prune at this node, but a correct alpha beta search did prune at
+this node when following the same expansion order that your agent followed.)
+Alpha: inf
+Beta: inf
+Game tree evaluation order:
+[(2, 4)]
+[(4, 4)]
+[(0, 3)]
+
+Nodes are shown with each layer sorted in the order the nodes were expanded
+during search.  All nodes in each successive layer are children of the
+furthest-right node in the parent layer above it.
+
+Test Case Details:
+------------------
+Heuristic: center_distance
+Depth limit: 4
+Initial Board State:
+     0   1   2   3   4   5   6   7   8
+0  |   |   |   |   |   |   |   |   |   |
+1  |   |   |   |   | - |   |   |   |   |
+2  |   |   | - | - |   | - |   |   |   |
+3  |   |   | - | - |   | - | - | - |   |
+4  |   |   | - | - |   | 1 | - |   |   |
+5  |   |   | - | - |   | - | - | - |   |
+6  |   |   |   | 2 | - | - |   |   |   |
+7  |   |   |   |   |   |   | - |   |   |
+8  |   |   |   |   |   |   |   |   |   |
+
+game._board_state:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0
+, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0,
+0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+ 0, 0, 33, 49]
+
